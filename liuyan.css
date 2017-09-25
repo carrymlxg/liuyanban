@@ -1,0 +1,85 @@
+/*
+* @Author: 梁飞
+* @Date:   2017-09-25 21:18:25
+* @Last Modified by:   梁飞
+* @Last Modified time: 2017-09-25 23:08:13
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #0E0417;
+}
+.box{
+	width: 1200px;
+	height: 150px;
+	background: #271C3F;
+	margin: 20px auto;
+	position: relative;
+}
+.shuru{
+	width: 1200px;
+	height: 150px;
+	resize: none;
+	background: rgba(255, 255, 255, 0.6);
+	box-sizing: border-box;
+	font-size: 24px;
+	padding: 10px;
+	line-height: 30px;
+	font-weight: 500;
+}
+.shuru:focus{
+	outline: none;
+}
+.bbox{
+	width: 1200px;
+	height: 100px;
+	position: absolute;
+	top: 170px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	background: #271C3F;
+
+	display: none;
+}
+button{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
+	border: none;
+	background: #6E59B2;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: #ffffff;
+	outline: none;
+	cursor: pointer;
+}
+.keshuru{
+	color: #fff;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.dongtai{
+	width: 1200px;
+	height: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+	background: #fff;
+	position: absolute;
+	top: 270px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000;
+	font-size: 24px;
+	line-height: 30px;
+
+}
